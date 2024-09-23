@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    padding: 5rem;
+    box-shadow:  1px 0px 10px;
+    color:gray;
+}
+
+.ul-left{
+    display: flex;
+   
+}
+.menu{
+    object-fit: contain;
+    margin-left: 2rem;
+    color: lightgray;
+    margin-top: -1rem;
+}
+
+#logo{
+    width: 200px;
+    margin-top: 0.5rem;
+    margin-top: -1rem;
+}
+
+.nav-text{
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    color: grey;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.ul-right{
+ display: flex;
+justify-content: end;
+margin-top: -3.5rem;
+margin-right: rem;
+
+}
+.notification{
+    margin-left: 3rem;
+    object-fit: contain;
+    width: 40px;
+ 
+}
+#id{
+    margin-left: 1rem;
+    width: 40px;
+    object-fit: cover;
+}
+.profile{
+    display: flex;
+}
+p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: grey;
+margin-top: 0.5rem;
+margin-left: 1rem;
+}
+.arrow{
+   object-fit: contain; 
+   margin-left: 1rem;
+}
+
+.box1{
+    background-color: white;
+box-shadow: 1px 0px 10px;
+color: grey;
+    padding: 3rem;
+    height: 700px;
+    margin-top: 2rem;
+    gap: 1rem;
+    width: 550px;
+scroll-snap-align: y mandatory;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#box{
+    margin-left: 2rem;
+    width: 100%;
+}
+.grid{
+   display: flex;
+   flex-direction:row;
+   row-gap: 1rem;
+
+}
+
+.items-flex{
+   display: flex;
+   width: 100%;
+    margin-top: 3rem;
+}
+.arr1{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+}
+.arr3{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 4.7rem;
+}
+.arr4{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 8rem;
+}
+.arr5{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 6.4rem;
+}
+.arr6{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left:5.5rem;
+}
+.arr7{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 10.6rem;
+}
+.arr8{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 6.6rem;
+}
+.arr9{
+
+ margin-left: 4rem;
+ width: 20px;
+ object-fit: contain;
+ margin-left: 6rem;
+}
+.imbg{
+    width: 30px;
+}
+.p{
+    margin-left: 1rem;
+    margin-top: rem;
+    font-weight: 700;
+    font-size: 25px;
+    font-family:"Work" ,sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.p1{
+    font-size: 19px;
+    font-family:"Work" ,sans-serif;
+    font-weight: 800;
+    color:grey;
+}
+.home{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home-link{
+    font-size: 18px;
+    font-weight: 800;
+    color: lightgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    margin-top: -1rem;
+    
+}
+.page{
+    margin-left: .5rem;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    padding: 3rem;
+    margin-top: -2rem;
+    position: absolute;
+   
+}
+
+.footer-container{
+    background-color: white;
+    
+    border-bottom: 12px solid lightgrey;
+    border-top: 4px solid lightgrey;
+    border-left: 7px solid lightgrey;
+    border-right: 12px solid lightgrey;
+    color: lightgrey;
+    width: 74%;
+    padding: 3rem;
+    margin-left: 24rem;
+}
+.footer-grid{
+   display: flex;
+   position: absolute;
+   margin-top: -1.5rem;
+   width: 500px;
+   margin-left: 27rem;
+}
+.footer-text,.footer-grid{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+#text{
+   margin-left: 0.4rem;
+   
+}
+
